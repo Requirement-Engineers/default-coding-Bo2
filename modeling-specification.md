@@ -19,10 +19,29 @@ Specification: an act of identifying something precisely
 
 `Exercise: Critique this- "The device shall sync to the backend when online. It shall store footfalls temporarily when offline"`
 
+- Sync time - when? = Ambiguous
+- Temporary = how long? = Ambiguous
+- Store = where to store? = Ambiguous (store in Volatile = power outage / store too long = outdated data gets sync)
+- Sync = what to sync? count? time of entry? ... = Not Complete
+- Not Singular - hard to read; incomplete conditions
 - What is lacking?
 
-`Exercise: Critique this- "The system shall notify the store-owner when the store gets full"`
+`Exercise: Critique this- 
 
+"The system shall notify the store-owner when store gets full"
+
+"Store is full when x cust per sq ft"
+
+"Notification is through SMS"
+
+"Configuration is in system config"
+
+"Failure of notification triggers retry, max 3 times over 4 hours"`
+
+- SMS number configured where? = Ambiguous / Not verifiable
+- What is full? = Ambiguous
+- What to notify / content of the notification = Complete
+- Notification failure = how many times retry? = "Three times over 4 hours"
 - What is lacking?
 
 ## *Specification
