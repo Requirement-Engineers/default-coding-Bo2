@@ -31,39 +31,16 @@ People change:
 
 ### Complexity in Requirements
 
-`Exercise: What's wrong with this use-case?`
-
-**Goal**: User login
-
-**Primary Actor**: Store owner
-
-**System**: Reporting backend
-
-**Steps**:
-
-1. Store owner enters user-name and password
-2. Store owner presses login button, triggering request to the backend
-3. Store owner sees the reports of their store
-
-**Extensions**:
-
-1 a. Wrong credentials: Store owner sees message to retry. Back to step 1
-
-1 b. Blocked account: Store owner told to contact admin
-
-**Variations**:
-
-Owner of a store-chain will see consolidated reports instead of a single store
+**Example** Requirement:
+_The system shall notify the store-owner when their store gets full_
 
 ---
 
-### Contradictions hidden by Ambiguity
+### Contradictions hidden by in Implementation and Ambiguity
 
-**Sample Ambiguous Statement**,
-motivated by data-ownership and cloud-capability:
-The Store owner shall always have access to their reports.
-
-`Exercise: What does it contradict with, in the above use-case?`
+**Sample** Contradiction: 
+_The Store owner can delegate notifications._
+_E.g., when owning a chain of stores._
 
 ---
 
@@ -72,4 +49,8 @@ The Store owner shall always have access to their reports.
 Try a [functional decomposition of business flows](modeling-business-flows.md)
 to overcome these obstacles.
 
-`Exercise: Make a functional decomposition of the above user-login use-case`
+**Example**: A functional decomposition of the above user-login use-case
+
+- System reports that the store is full when it measures x cust per sq ft
+- System delivers reports to registered clients
+- Transient failures shall be retried 3 times in a span of 30 minutes

@@ -21,3 +21,24 @@ lists product quality attributes.
 > The ideal is not achievable, so we settle for state-of-the-art
 
 ![quantevolve](images/cd-writing-evolution.png "evolution of quantification")
+
+## Kano model
+
+It is [one of the models](https://en.wikipedia.org/wiki/Kano_model)
+to characterize user-needs by their direct effects on the user-emotion
+('wow' factor).
+
+Dissatisfiers:
+
+- Not implemented: **Dissatisfaction**
+- Fully implemented: Unnoticed
+
+Satisfiers:
+
+- Not implemented: Dissatisfaction
+- Fully implemented: **More is better**
+
+Exciters:
+
+- Not implemented: Unnoticed
+- Fully implemented: **Wow**

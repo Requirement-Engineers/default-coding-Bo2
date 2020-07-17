@@ -17,14 +17,6 @@ Artifacts of early validation are:
 - Wire-frames
 - Prototypes
 
-## Validation- Continuous Response
-
-Also called the 'DevOps' flow
-
-Develop > Verify > Release > Monitor > Release
-
-![fielding](https://www.cricketbio.com/wp-content/uploads/2018/01/Best-Fielding-Position-in-Cricket.png "devops fielders")
-
 ## Pre-release Validation
 
 Validation criteria defined at design time:
@@ -33,3 +25,12 @@ Validation criteria defined at design time:
 - Environmental risk: Temperature and Humidity at work, Power stability,
 Network availability, ...
 - Usability risk: Training required, Efficiency of users, ...
+
+## Validation- Continuous Response
+
+Also called the 'DevOps' flow
+
+Develop > Verify > Release > Monitor > Release
+
+![fielding](https://www.cricketbio.com/wp-content/uploads/2018/01/Best-Fielding-Position-in-Cricket.png "devops fielders")
+
